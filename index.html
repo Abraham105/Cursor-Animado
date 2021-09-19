@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+		<div class="content">
+			<h1>Cursor Follow on MouseMove</h1>
+			<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Ipsa rem error, at similique, quia maiores iste et, sequi aliquam eos commodi dolore tempora repudiandae neque deleniti laudantium inventore facere! Nesciunt.
+			</p>
+		</div>
+		<div class="cursor"></div>
+		<div class="cursor2"></div>
+
+		<script>
+			
+			var cursor = document.querySelector('.cursor');
+			var cursor2 = document.querySelector('.cursor2');
+			//funcion que hace que el cursor te siga 
+			document.addEventListener("mousemove", function(e){
+
+				cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;"; 
+			})
+
+		</script>
+
+</body>
+</html>
