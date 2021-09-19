@@ -6,7 +6,7 @@
 
 > Es una burbuja que sigue a nuestro cursor 
 
-
+![Cursor animado](https://user-images.githubusercontent.com/78152546/133913378-f4b4f942-f560-4046-855f-df20354429e2.png)
 
 
 <h3 align="center">Languages used in this project</h3>
